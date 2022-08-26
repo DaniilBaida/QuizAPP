@@ -54,7 +54,7 @@ Partial Class menu
         Me.cb_tema.Font = New System.Drawing.Font("MADE TOMMY", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.cb_tema.ForeColor = System.Drawing.SystemColors.WindowText
         Me.cb_tema.FormattingEnabled = True
-        Me.cb_tema.Items.AddRange(New Object() {"Programação", "Cultura Geral", "Bandeiras"})
+        Me.cb_tema.Items.AddRange(New Object() {"Programação", "Cultura Geral"})
         Me.cb_tema.Location = New System.Drawing.Point(334, 284)
         Me.cb_tema.Name = "cb_tema"
         Me.cb_tema.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -76,9 +76,9 @@ Partial Class menu
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(364, 322)
+        Me.PictureBox2.Location = New System.Drawing.Point(364, 335)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(73, 69)
+        Me.PictureBox2.Size = New System.Drawing.Size(72, 72)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox2.TabIndex = 3
         Me.PictureBox2.TabStop = False
@@ -87,10 +87,11 @@ Partial Class menu
         '
         Me.txtbox_erro.BackColor = System.Drawing.Color.Red
         Me.txtbox_erro.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtbox_erro.Font = New System.Drawing.Font("MADE TOMMY", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.txtbox_erro.ForeColor = System.Drawing.Color.White
-        Me.txtbox_erro.Location = New System.Drawing.Point(296, 255)
+        Me.txtbox_erro.Location = New System.Drawing.Point(274, 254)
         Me.txtbox_erro.Name = "txtbox_erro"
-        Me.txtbox_erro.Size = New System.Drawing.Size(213, 23)
+        Me.txtbox_erro.Size = New System.Drawing.Size(253, 24)
         Me.txtbox_erro.TabIndex = 4
         Me.txtbox_erro.Text = "Insira um nome inferior a 11 caracteres"
         Me.txtbox_erro.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -100,7 +101,7 @@ Partial Class menu
         '
         Me.pb_erro.BackColor = System.Drawing.Color.Transparent
         Me.pb_erro.Image = Global.QuizAPP.My.Resources.Resources._error
-        Me.pb_erro.Location = New System.Drawing.Point(348, 317)
+        Me.pb_erro.Location = New System.Drawing.Point(353, 335)
         Me.pb_erro.Name = "pb_erro"
         Me.pb_erro.Size = New System.Drawing.Size(94, 79)
         Me.pb_erro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage

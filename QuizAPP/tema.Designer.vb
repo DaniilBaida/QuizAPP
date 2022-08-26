@@ -111,7 +111,7 @@ Partial Class tema
         'pb_perguntas
         '
         Me.pb_perguntas.BackColor = System.Drawing.Color.Transparent
-        Me.pb_perguntas.Image = Global.QuizAPP.My.Resources.Resources.outsystems
+        Me.pb_perguntas.Image = Global.QuizAPP.My.Resources.Resources.cult_1
         Me.pb_perguntas.Location = New System.Drawing.Point(257, 74)
         Me.pb_perguntas.Name = "pb_perguntas"
         Me.pb_perguntas.Size = New System.Drawing.Size(286, 179)
@@ -127,7 +127,7 @@ Partial Class tema
         Me.bt_1.ForeColor = System.Drawing.Color.White
         Me.bt_1.Location = New System.Drawing.Point(244, 269)
         Me.bt_1.Name = "bt_1"
-        Me.bt_1.Size = New System.Drawing.Size(143, 37)
+        Me.bt_1.Size = New System.Drawing.Size(143, 45)
         Me.bt_1.TabIndex = 12
         Me.bt_1.Text = "ARDUINO"
         Me.bt_1.UseVisualStyleBackColor = False
@@ -140,7 +140,7 @@ Partial Class tema
         Me.bt_2.ForeColor = System.Drawing.Color.White
         Me.bt_2.Location = New System.Drawing.Point(414, 269)
         Me.bt_2.Name = "bt_2"
-        Me.bt_2.Size = New System.Drawing.Size(143, 37)
+        Me.bt_2.Size = New System.Drawing.Size(143, 45)
         Me.bt_2.TabIndex = 13
         Me.bt_2.Text = "ARDUINO"
         Me.bt_2.UseVisualStyleBackColor = False
@@ -153,7 +153,7 @@ Partial Class tema
         Me.bt_3.ForeColor = System.Drawing.Color.White
         Me.bt_3.Location = New System.Drawing.Point(243, 331)
         Me.bt_3.Name = "bt_3"
-        Me.bt_3.Size = New System.Drawing.Size(143, 37)
+        Me.bt_3.Size = New System.Drawing.Size(143, 44)
         Me.bt_3.TabIndex = 14
         Me.bt_3.Text = "ARDUINO"
         Me.bt_3.UseVisualStyleBackColor = False
@@ -166,7 +166,7 @@ Partial Class tema
         Me.bt_4.ForeColor = System.Drawing.Color.White
         Me.bt_4.Location = New System.Drawing.Point(414, 331)
         Me.bt_4.Name = "bt_4"
-        Me.bt_4.Size = New System.Drawing.Size(143, 37)
+        Me.bt_4.Size = New System.Drawing.Size(143, 44)
         Me.bt_4.TabIndex = 15
         Me.bt_4.Text = "ARDUINO"
         Me.bt_4.UseVisualStyleBackColor = False
