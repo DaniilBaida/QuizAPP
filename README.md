@@ -1,5 +1,5 @@
 # QuizAPP
-Quizz APP made in VB
+Quizz APP made in VB for School Project
 
 
 
